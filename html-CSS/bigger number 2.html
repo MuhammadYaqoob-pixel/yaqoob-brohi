@@ -1,0 +1,39 @@
+<html>
+<head><title>bigger</title>
+<script type="text/javascript">		
+function nge()
+{
+var num1=parseInt(document.form1.txt1.value);
+var num2=parseInt(document.form1.txt2.value);
+var num3=parseInt(document.form1.txt3.value);
+var num4=parseInt(document.form1.txt4.value);
+
+if(num1>num2 && num1>num3 && num1>num4)
+alert("Number one is bigger");
+else if(num2>num1 && num2>num3 && num2>num4)
+alert("Number two is bigger");
+
+else if (num3>num1 && num3>num2 && num3>num4)
+alert("Number three is bigger");
+
+else
+alert("Number four is bigger");
+
+}
+</script>
+</head>
+
+<img src="jh.jpg" width=500 hieght=500>
+<body backgroun="welcome scan.jpg">
+<form name="form1">
+<font color="bluesky">enter first value:<input type=text name=txt1><br></font>
+<font color="green">Enter second value:<input type=text name=txt2><br></font>
+<font color="red">enter third value:<input type=text name=txt3><br></font>
+<font color="yellow">enter fourth value:<input type=text name=txt4><br></font>
+
+<input type=button value="see your bigger number" onClick="nge()">
+The bigger number is:<input type=text name=txt5><br>
+
+</form>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<html>
+<head><title>array demo</title>
+<script type="text/javascript">
+var arry=[10,20,30,40,50,60,70,80,90,100];
+document.write("Traversing...........<br>")
+
+for(var i=0; i<10;i++)
+document.write(arry[i]+" ");
+document.write("<br>Deletion");
+var del=parseInt(window.prompt("enter the number you want to delete""0"));
+for (var j=0;<10;j++)
+{if(arry[j==del])
+arry[j]=0;
+document.write(arry[j]+" ");
+
+}
+var search=parseInt(window.prompt("Enter value for searching","0"));
+for(var k=0;k<10;k++)
+{
+if(arry[k]==search)
+document.write("your entered value:"+search+"is at"+arry[k+1]+"position");
+}
+
+</script>
+</head>
+<body>
+</body>
+</html>

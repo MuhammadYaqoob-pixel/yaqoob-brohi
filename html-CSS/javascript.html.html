@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>scriptdemo</title>
+
+<script type="text/javascript">
+
+function add()
+{
+  var a=parseInt(document.form1.txt1.value);
+  var b=parseInt(document.form1.txt2.value);
+alert("addition of given numbers is:"+(a+b));
+}
+
+function sub()
+{
+  var a=parseInt(document.form1.txt1.value);
+  var b=parseInt(document.form1.txt2.value);
+alert("Subtraction of given numbers is:"+(a-b));
+}
+
+function divide()
+{
+  var a=parseInt(document.form1.txt1.value);
+  var b=parseInt(document.form1.txt2.value);
+alert("divide of given numbers is:"+(a*b));
+}
+
+</script>
+</head>
+
+<body bgcolor=229911>
+<h1>yaqoob brohi</h1>
+
+<form name="form1">
+Enter first value<input type=text name=txt1>
+<br>
+
+Enter second value<input type=text name=txt2>
+<br>
+<input type=button value="Addition" onClick="add()">
+
+<input type=button value="subtraction" onClick="sub()">
+
+<input type=button value="division" onClick="divide()">
+
+</form>
+
+</body>
+</html>

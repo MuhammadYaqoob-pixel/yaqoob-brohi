@@ -1,0 +1,56 @@
+<html> 
+<head>
+<title>formdemo</title>
+<script type="text/javascript">
+function Obt()
+{
+ var eng = parseInt(document.form1.txt1.value);
+ var math = parseInt(document.form1.txt2.value);
+ var phy = parseInt(document.form1.txt3.value);
+ var chem = parseInt(document.form1.txt4.value);
+ var isl = parseInt(document.form1.txt5.value); 
+ var comp = parseInt(document.form1.txt6.value);
+ var sindhi = parseInt(document.form1.txt7.value);
+
+ var obt = eng+math+phy+chem+isl+comp+sindhi;
+
+ alert("Your obtained marks are:"+obt);
+
+ alert("Your obtained marks are:"+obt);
+
+ alert("Your obtained marks are:"+obt);
+
+
+}
+
+
+
+</script>
+</head>
+<bodybg color= ffaaee>
+<fieldset><legend>Enter marks of given subjects</legend>
+
+<form name="form1">
+English:<input type=text name=txt1>
+<br>
+Math:<input type=text name=txt2><br>
+Physics:<input type=text name=txt3><br>
+Chemistry:<input type=text name=txt4><br>
+Islamiat:<input type=text name=txt5><br>
+Computer science:<input type=text name=txt6><br>
+Sindhi:<input type=text name=txt7><br>
+
+
+
+<input type=button name=btnl value="Obtainend mark" onClick="Obt()">
+<input type=button name=btn1 value="Perecentage" onClick="percentage()">
+<input type=button name=btn1 value="Grade" onClick="grade()">
+
+
+
+</form>
+</fieldset>
+</body>
+
+</html>
+

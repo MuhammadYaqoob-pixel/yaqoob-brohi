@@ -1,0 +1,37 @@
+<html>
+<head><title>listdemo</title>
+
+<script type="text/javascript">
+
+function loopdemo()
+{
+
+ var tablefrom=parseInt(document.form1.txt1.value);
+ var tableto=parseInt(document.form1.txt2.value);
+ var start=parseInt(document.form1.txt3.value);
+ var end=parseInt(document.form1.txt4.value);
+
+
+ for(var j>=tablefrom;j<=tableto;j++)
+ {
+ document.write("table of:"+j+"<br>");
+ for(var i=tablestart;i<=tableend;i++)
+ document.write(i+"*"+j+"="+(i*j)+"<br>");
+}
+}
+
+
+</script>
+</head>
+
+<body>
+<form name="form1">
+Tables from:<input type=text name=txt1>
+to<input type=text name=txt2><br>
+Entereach table starting point:<input type=text name=txt3><br>
+Enter each table ending point:<input type=text name=txt4><br>
+<input type=button value="see your tables" onClick=loopdemo()>
+
+</form>
+</body>
+</html>
